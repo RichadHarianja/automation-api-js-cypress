@@ -1,0 +1,7 @@
+{
+  "baseUrl": "https://petstore.swagger.io/v2",
+  "defaultStatus": "available",
+  "defaultPetId": 1,
+  "defaultOrderId": 4,
+  "defaultUsername": "string"
+}

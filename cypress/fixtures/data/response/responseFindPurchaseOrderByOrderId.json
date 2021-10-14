@@ -1,0 +1,54 @@
+{
+  "body": {
+    "id": 4,
+    "petId": 8,
+    "quantity": 4,
+    "shipDate": "2021-09-26T05:15:43.101+0000",
+    "status": "placed",
+    "complete": true
+  },
+  "headers": {
+    "date": "Thu, 14 Oct 2021 08:29:18 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET, POST, DELETE, PUT",
+    "access-control-allow-headers": "Content-Type, api_key, Authorization",
+    "server": "Jetty(9.2.9.v20150224)"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "accept": "application/json",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36",
+    "accept-encoding": "gzip, deflate"
+  },
+  "duration": 276,
+  "allRequestResponses": [
+    {
+      "Request Body": null,
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "accept": "application/json",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36",
+        "accept-encoding": "gzip, deflate"
+      },
+      "Request URL": "https://petstore.swagger.io/v2/store/order/4",
+      "Response Body": "{\"id\":4,\"petId\":8,\"quantity\":4,\"shipDate\":\"2021-09-26T05:15:43.101+0000\",\"status\":\"placed\",\"complete\":true}",
+      "Response Headers": {
+        "date": "Thu, 14 Oct 2021 08:29:18 GMT",
+        "content-type": "application/json",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, POST, DELETE, PUT",
+        "access-control-allow-headers": "Content-Type, api_key, Authorization",
+        "server": "Jetty(9.2.9.v20150224)"
+      },
+      "Response Status": 200
+    }
+  ]
+}
