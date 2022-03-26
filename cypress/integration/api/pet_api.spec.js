@@ -46,7 +46,7 @@ describe('Demonstrate API Chaining in Cypress', function () {
             cy.log("STATUS :: "+Cypress.config('defaultStatus'))
               cy.request({
                   method: 'GET',
-                  url: '/pet/findByStatus?status='+Cypress.config('defaultStatus'),
+                  url: '/pet/findByStatus?status=available',
                   headers: {
                       'accept' : 'application/json',
                   },
@@ -60,7 +60,7 @@ describe('Demonstrate API Chaining in Cypress', function () {
           cy.log("PET ID :: "+Cypress.config('defaultPetId'))
             cy.request({
                method: 'GET',
-               url: '/pet/'+Cypress.config('defaultPetId'),
+               url: '/pet/2',
                headers: {
                   'accept' : 'application/json',
                },

@@ -1,14 +1,14 @@
 {
   "body": {
-    "id": 4,
-    "petId": 8,
-    "quantity": 4,
-    "shipDate": "2021-09-26T05:15:43.101+0000",
+    "id": 1,
+    "petId": 1,
+    "quantity": 1,
+    "shipDate": "2021-10-14T08:16:49.237+0000",
     "status": "placed",
     "complete": true
   },
   "headers": {
-    "date": "Thu, 14 Oct 2021 08:29:18 GMT",
+    "date": "Sat, 26 Mar 2022 17:23:51 GMT",
     "content-type": "application/json",
     "transfer-encoding": "chunked",
     "connection": "keep-alive",
@@ -23,23 +23,23 @@
   "requestHeaders": {
     "Connection": "keep-alive",
     "accept": "application/json",
-    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36",
     "accept-encoding": "gzip, deflate"
   },
-  "duration": 276,
+  "duration": 315,
   "allRequestResponses": [
     {
       "Request Body": null,
       "Request Headers": {
         "Connection": "keep-alive",
         "accept": "application/json",
-        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36",
         "accept-encoding": "gzip, deflate"
       },
-      "Request URL": "https://petstore.swagger.io/v2/store/order/4",
-      "Response Body": "{\"id\":4,\"petId\":8,\"quantity\":4,\"shipDate\":\"2021-09-26T05:15:43.101+0000\",\"status\":\"placed\",\"complete\":true}",
+      "Request URL": "https://petstore.swagger.io/v2/store/order/1",
+      "Response Body": "{\"id\":1,\"petId\":1,\"quantity\":1,\"shipDate\":\"2021-10-14T08:16:49.237+0000\",\"status\":\"placed\",\"complete\":true}",
       "Response Headers": {
-        "date": "Thu, 14 Oct 2021 08:29:18 GMT",
+        "date": "Sat, 26 Mar 2022 17:23:51 GMT",
         "content-type": "application/json",
         "transfer-encoding": "chunked",
         "connection": "keep-alive",

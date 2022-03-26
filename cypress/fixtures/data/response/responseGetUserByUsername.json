@@ -1,6 +1,6 @@
 {
   "body": {
-    "id": 9223372000666138000,
+    "id": 2039377080500583200,
     "username": "string",
     "firstName": "string",
     "lastName": "string",
@@ -10,7 +10,7 @@
     "userStatus": 0
   },
   "headers": {
-    "date": "Thu, 14 Oct 2021 09:02:27 GMT",
+    "date": "Sat, 26 Mar 2022 17:23:52 GMT",
     "content-type": "application/json",
     "transfer-encoding": "chunked",
     "connection": "keep-alive",
@@ -25,23 +25,23 @@
   "requestHeaders": {
     "Connection": "keep-alive",
     "accept": "application/json",
-    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36",
     "accept-encoding": "gzip, deflate"
   },
-  "duration": 262,
+  "duration": 313,
   "allRequestResponses": [
     {
       "Request Body": null,
       "Request Headers": {
         "Connection": "keep-alive",
         "accept": "application/json",
-        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36",
         "accept-encoding": "gzip, deflate"
       },
       "Request URL": "https://petstore.swagger.io/v2/user/string",
-      "Response Body": "{\"id\":9223372000666137691,\"username\":\"string\",\"firstName\":\"string\",\"lastName\":\"string\",\"email\":\"string\",\"password\":\"string\",\"phone\":\"string\",\"userStatus\":0}",
+      "Response Body": "{\"id\":2039377080500583048,\"username\":\"string\",\"firstName\":\"string\",\"lastName\":\"string\",\"email\":\"string\",\"password\":\"string\",\"phone\":\"string\",\"userStatus\":0}",
       "Response Headers": {
-        "date": "Thu, 14 Oct 2021 09:02:27 GMT",
+        "date": "Sat, 26 Mar 2022 17:23:52 GMT",
         "content-type": "application/json",
         "transfer-encoding": "chunked",
         "connection": "keep-alive",

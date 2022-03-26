@@ -1,0 +1,53 @@
+{
+  "body": {
+    "code": 200,
+    "type": "unknown",
+    "message": "1"
+  },
+  "headers": {
+    "date": "Sat, 26 Mar 2022 17:23:51 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET, POST, DELETE, PUT",
+    "access-control-allow-headers": "Content-Type, api_key, Authorization",
+    "server": "Jetty(9.2.9.v20150224)"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "accept": "application/json",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36",
+    "accept-encoding": "gzip, deflate",
+    "content-length": 0
+  },
+  "duration": 289,
+  "allRequestResponses": [
+    {
+      "Request Body": null,
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "accept": "application/json",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36",
+        "accept-encoding": "gzip, deflate",
+        "content-length": 0
+      },
+      "Request URL": "https://petstore.swagger.io/v2/store/order/1",
+      "Response Body": "{\"code\":200,\"type\":\"unknown\",\"message\":\"1\"}",
+      "Response Headers": {
+        "date": "Sat, 26 Mar 2022 17:23:51 GMT",
+        "content-type": "application/json",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, POST, DELETE, PUT",
+        "access-control-allow-headers": "Content-Type, api_key, Authorization",
+        "server": "Jetty(9.2.9.v20150224)"
+      },
+      "Response Status": 200
+    }
+  ]
+}

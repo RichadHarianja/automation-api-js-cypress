@@ -1,0 +1,23 @@
+{
+  "name": "test-api",
+  "version": "1.0.0",
+  "description": "A simple Appium Java test scripts to test an native mobile application (Android & iOS)",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichadHarianja/automation-api-selenium-cucumber-js-cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RichadHarianja/automation-api-selenium-cucumber-js-cypress/issues"
+  },
+  "homepage": "https://github.com/RichadHarianja/automation-api-selenium-cucumber-js-cypress#readme",
+  "dependencies": {
+    "cypress": "^9.5.2"
+  }
+}
